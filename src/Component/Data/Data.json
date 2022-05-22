@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "image": "/Image/room1.png",
+    "state": "Lagos, Nigeria"
+  },
+  {
+    "id": "2",
+    "image": "/Image/room9.jpg",
+    "state": "Enugu, Nigeria"
+  },
+  {
+    "id": "3",
+    "image": "/Image/room3.jpg",
+    "state": "Kwara, Nigeria"
+  },
+  {
+    "id": "4",
+    "image": "/Image/room6.png",
+    "state": "Kano, Nigeria"
+  },
+  {
+    "id": "5",
+    "image": "/Image/room5.jpg",
+    "state": "Abia, Nigeria"
+  },
+  {
+    "id": "6",
+    "image": "/Image/pool2.jpg",
+    "state": "Abia, Nigeria"
+  },
+  {
+    "id": "6",
+    "image": "/Image/pool-650x433.png",
+    "state": "Abia, Nigeria"
+  },
+  {
+    "id": "6",
+    "image": "/Image/pool2.jpg",
+    "state": "Abia, Nigeria"
+  }
+]
