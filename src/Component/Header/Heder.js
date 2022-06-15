@@ -3,6 +3,7 @@ import { FiGlobe, FiSearch } from "react-icons/fi";
 import { FaLaptopHouse } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoIosContact } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 import styled from "styled-components";
 
@@ -24,7 +25,7 @@ const Heder = () => {
     <div>
       <Container>
         <Wrapper>
-          <Logo>
+          <Logo to={"/Logo"}>
             <FaLaptopHouse style={style} />
             <span>Comfort</span>
           </Logo>
@@ -43,9 +44,9 @@ const Heder = () => {
             <Icon>
               <FiGlobe />
             </Icon>
-            <Box2>
+            <Box2 to={"/Signup"}>
               <IoIosContact style={stylesavatar} />
-              <GiHamburgerMenu style={stylesavatar} />
+              <GiHamburgerMenu to={"/Signin"} style={stylesavatar} />
             </Box2>
           </Layer3hold>
         </Wrapper>
@@ -75,7 +76,7 @@ const Wrapper = styled.div`
   height: 70px;
   /* background-color: green; */
 `;
-const Logo = styled.div`
+const Logo = styled(Link)`
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -146,6 +147,7 @@ const Layer3hold = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 250px;
+  cursor: pointer;
   /* background-color: green; */
   @media screen and (max-width: 500px) {
     width: 150px;
@@ -159,7 +161,7 @@ const Box1 = styled.div`
     display: none;
   }
 `;
-const Box2 = styled.div`
+const Box2 = styled(Link)`
   display: flex;
   justify-content: space-around;
   align-items: center;

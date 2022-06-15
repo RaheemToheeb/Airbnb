@@ -1,15 +1,22 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import { MdStarRate } from "react-icons/md";
 import data from "../Data/Data.json";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Layer2 = () => {
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
   return (
     <Container>
       <Wrapper>
         {data?.map((props) => {
           return (
-            <Contain key={props.id}>
+            <Contain key={props.id} data-aos="fade-right" to={"/Detail"}>
               <Image src={props.image} alt="" />
               <Text>
                 <nav>
@@ -58,13 +65,14 @@ const Wrapper = styled.div`
   /* background-color: yellow; */
 `;
 
-const Contain = styled.div`
+const Contain = styled(Link)`
   display: flex;
   flex-direction: column;
   margin: 12px;
   /* align-items: center; */
   /* justify-content: center; */
   /* background-color: green; */
+  text-decoration:none;
 `;
 
 const Image = styled.img`

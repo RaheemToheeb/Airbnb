@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "image": "/Image/car7.jpg",
+    "state": "Lagos, Nigeria"
+  },
+  {
+    "id": "2",
+    "image": "/Image/car1.jpg",
+    "state": "Enugu, Nigeria"
+  },
+  {
+    "id": "3",
+    "image": "/Image/car2.jpg",
+    "state": "Kwara, Nigeria"
+  },
+  {
+    "id": "4",
+    "image": "/Image/car3.jpg",
+    "state": "Kano, Nigeria"
+  },
+  {
+    "id": "5",
+    "image": "/Image/car4.jpg",
+    "state": "Abia, Nigeria"
+  },
+  {
+    "id": "6",
+    "image": "/Image/car5.jpg",
+    "state": "Abia, Nigeria"
+  },
+  {
+    "id": "6",
+    "image": "/Image/car6.jpg",
+    "state": "Abia, Nigeria"
+  },
+  {
+    "id": "6",
+    "image": "/Image/car7.jpg",
+    "state": "Abia, Nigeria"
+  },
+  {
+    "id": "7",
+    "image": "/Image/carb.jpg",
+    "state": "Ekiti, Nigeria"
+  },
+  {
+    "id": "8",
+    "image": "/Image/car20.jpg",
+    "state": "Ekiti, Nigeria"
+  },
+  {
+    "id": "9",
+    "image": "/Image/Simi.jpg",
+    "state": "Ekiti, Nigeria"
+  },
+  {
+    "id": "10",
+    "image": "/Image/Simi2.jpg",
+    "state": "Abuja, Nigeria"
+  },
+  {
+    "id": "11",
+    "image": "/Image/car1.jpg",
+    "state": "Calaber, Nigeria"
+  },
+  {
+    "id": "12",
+    "image": "/Image/car3.jpg",
+    "state": "Porthacourt, Nigeria"
+  },
+  {
+    "id": "13",
+    "image": "/Image/car2.jpg",
+    "state": "Lagos, Nigeria"
+  },
+  {
+    "id": "14",
+    "image": "/Image/car7.jpg",
+    "state": "Benin, Nigeria"
+  }
+]

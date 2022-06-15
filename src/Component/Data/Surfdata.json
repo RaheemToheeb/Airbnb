@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "image": "/Image/surf4.jpg",
+    "state": "Lagos, Nigeria"
+  },
+  {
+    "id": "2",
+    "image": "/Image/surf7.jpg",
+    "state": "Enugu, Nigeria"
+  },
+  {
+    "id": "3",
+    "image": "/Image/surf8.jpg",
+    "state": "Kwara, Nigeria"
+  },
+  {
+    "id": "4",
+    "image": "/Image/surf9.jpg",
+    "state": "Kano, Nigeria"
+  },
+  {
+    "id": "5",
+    "image": "/Image/surfing1.jpg",
+    "state": "Abia, Nigeria"
+  },
+  {
+    "id": "6",
+    "image": "/Image/surfing2.jpg",
+    "state": "Abia, Nigeria"
+  },
+  {
+    "id": "6",
+    "image": "/Image/surfing3.jpg",
+    "state": "Abia, Nigeria"
+  },
+  {
+    "id": "6",
+    "image": "/Image/surfing1.jpg",
+    "state": "Abia, Nigeria"
+  }
+]

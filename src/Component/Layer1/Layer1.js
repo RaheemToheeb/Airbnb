@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import { GiMountainCave } from "react-icons/gi";
 import { MdNavigateNext } from "react-icons/md";
 import { IoMdContacts } from "react-icons/io";
@@ -30,24 +31,24 @@ const Layer1 = () => {
             </span>
             <nav>Shared Homes</nav>
           </ContainH>
-          <Contain>
+          <Office to={"/Office"}>
             <span>
               <IoMdContact style={style} />
             </span>
-            <nav>Single</nav>
-          </Contain>
-          <Contain>
+            <nav>Office</nav>
+          </Office>
+          <Surf to={"/Surf"}>
             <span>
               <MdSurfing style={style} />
             </span>
             <nav>Surfing</nav>
-          </Contain>
-          <Contain>
+          </Surf>
+          <Car to={"/Car"}>
             <span>
               <FaCarSide style={style} />
             </span>
             <nav>Cars</nav>
-          </Contain>
+          </Car>
 
           <Contain>
             <span>
@@ -131,6 +132,98 @@ const IconLayer1 = styled.div`
 `;
 
 const Contain = styled.div`
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-around;
+  /* background-color: red; */
+  color: #818181;
+  :hover {
+    border-bottom: 1px solid #bdc2c6;
+  }
+  span {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav {
+    font-size: 0.7rem;
+    margin-top: 5px;
+  }
+  @media only screen and (max-width: 768px) {
+    /* background-color: green; */
+    display: block;
+  }
+
+  @media only screen and (max-width: 425px) {
+    display: none;
+  }
+`;
+
+const Surf = styled(Link)`
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-around;
+  /* background-color: red; */
+  color: #818181;
+  :hover {
+    border-bottom: 1px solid #bdc2c6;
+  }
+  span {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav {
+    font-size: 0.7rem;
+    margin-top: 5px;
+  }
+  @media only screen and (max-width: 768px) {
+    /* background-color: green; */
+    display: block;
+  }
+
+  @media only screen and (max-width: 425px) {
+    display: none;
+  }
+`;
+
+const Car = styled(Link)`
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-around;
+  /* background-color: red; */
+  color: #818181;
+  :hover {
+    border-bottom: 1px solid #bdc2c6;
+  }
+  span {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav {
+    font-size: 0.7rem;
+    margin-top: 5px;
+  }
+  @media only screen and (max-width: 768px) {
+    /* background-color: green; */
+    display: block;
+  }
+
+  @media only screen and (max-width: 425px) {
+    display: none;
+  }
+`;
+const Office = styled(Link)`
   display: flex;
 
   flex-direction: column;
