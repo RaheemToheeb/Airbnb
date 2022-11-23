@@ -1,3 +1,5 @@
+/*const mongoose = require("mongoose");*/
+
 const mongoose = require("mongoose");
 url = "mongodb://localhost/Airnnb";
 mongoose.connect(url).then((req, res) => {
@@ -7,3 +9,5 @@ mongoose.connect(url).then((req, res) => {
     console.log("Cannot connet to Data base");
   }
 });
+
+/* I only make little edit */
