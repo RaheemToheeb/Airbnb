@@ -1,3 +1,5 @@
+// This is Sign up
+// Page
 import React from "react";
 import styled from "styled-components";
 import { BsEnvelope } from "react-icons/bs";
